@@ -5,7 +5,7 @@
 
 ## 文件结构
 - 根目录 `.gitignore`：排除缓存、环境文件、凭据和临时诊断内容；`.gitattributes`：源码/文档使用 LF，Windows 启动脚本使用 CRLF；`.git`：本地 Git 元数据，不作为项目文件上传。
-- GitHub 备份目标为私有仓库 `amanofGod/lkwg-black-screen`。上传范围为项目源码、启动文件、文档和验证脚本；上传前检查暂存区，实际 `git push` 前按用户边界确认。
+- GitHub 备份目标为私有仓库 `amanofGod/black-screen`。上传范围为项目源码、启动文件、文档和验证脚本；上传前检查暂存区，实际 `git push` 前按用户边界确认。
 - 根目录 `black_screen.py`：独立 Win32 黑色覆盖层；`black_screen.cmd`：双击启动；`BLACK_SCREEN.md`：使用说明。不安装额外依赖。
 - 根目录 AGENTS.md：工作规则与范围。
 - 根目录 `background_input.py`：Windows 后台左键测试工具，使用 Python 标准库，支持倒计时单次测试和读取 XInput RT。
