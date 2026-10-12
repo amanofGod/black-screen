@@ -1,0 +1,25 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Credentials and local configuration
+.env
+.env.*
+*.pem
+*.key
+credentials*.json
+secrets*.json
+
+# Local diagnostics, editor settings and generated artifacts
+*.log
+*.tmp
+*.bak
+*.png
+*.jpg
+*.jpeg
+.vscode/
+.idea/
+dist/
+build/
